@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="Facebooker.MainWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="FB Birthday Poster"
+    Height="317"
+    Width="581"
+    Icon="/Facebooker;component/facebook.ico">
+    <Grid>
+        <Label
+            Name="userLabel"
+            Content=""
+            Grid.Column="0"
+            Grid.Row="0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Margin="8,8,0,0"
+            Width="555"
+            Height="33" />
+        <ProgressBar
+            Name="progress"
+            Grid.Column="0"
+            Grid.Row="0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Margin="8,50,0,0"
+            Width="555"
+            Height="20" />
+        <Button
+            Name="checkButton"
+            Content="Check now"
+            Grid.Column="0"
+            Grid.Row="0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Margin="249.5,85,0,0"
+            Width="75"
+            Height="23"
+            Click="checkButton_Click" />
+    </Grid>
+</Window>
