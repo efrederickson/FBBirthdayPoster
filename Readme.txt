@@ -1,2 +1,2 @@
-﻿Facebooker is a Facebook client that shall grow in epikalness as i choose to work on it.
-Currently it has a lame UI.
+﻿FBBirthdayPoster posts to peoples walls on their birthday.
+Copyright (C) 2012 LoDC
