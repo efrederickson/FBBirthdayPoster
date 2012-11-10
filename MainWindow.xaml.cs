@@ -86,6 +86,8 @@ namespace Facebooker
             Dispatcher.Invoke(new Action(delegate {
                                              progress.Value = 0;
                                              userLabel.Content = "done!";
+                                             if (report == "")
+                                                 report = "No Birthdays today!";
                                              if (report != "")
                                                  MessageBox.Show(report);
                                              this.Close();
